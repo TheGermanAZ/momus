@@ -3,26 +3,25 @@
     "description": "This is an application",
     "version": "0.1.0",
     "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["js/content.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "momus",
+        "default_icon": "img/momus.png"
+    },
+    "permissions": ["tabs"], 
     "icons": {
         "16": "img/momus.png",
         "32": "img/momus.png",
         "48": "img/momus.png",
         "128": "img/momus.png"
-    },
-    // "background": {
-    //     "scripts": ["background.js"]
-    // },
-    "content_scripts": [
-        {
-            "matches": ["<all_urls>"],
-            "js": ["detect.js"]
-        }
-    ],
-    "browser_action": {
-        "default_popup": "popup.html",
-        "default_title": "bear"
-    },
-    "permissions": [
-        "tabs"
-    ]      
+    }     
 }
