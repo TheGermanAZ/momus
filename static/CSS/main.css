@@ -1,4 +1,117 @@
+
+* {
+    background: #E5E5E5;
+}
+
 body {
     margin: 0;
     font-family: sans-serif;
+}
+
+footer {
+position: absolute;
+width: 1440px;
+height: 220px;
+left: 0px;
+top: 1111px;
+}
+
+logo {
+position: absolute;
+left: 0%;
+right: 94.05%;
+top: 0%;
+bottom: 0%;
+
+background: url(/static/images/m4transparent.png);
+}
+
+logo_font {
+position: absolute;
+left: 7.45%;
+right: 84.11%;
+top: 31.65%;
+bottom: 13.92%;
+
+font-family: Basier Square Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+
+color: #000000;
+}
+
+header_font {
+position: absolute;
+left: 96.01%;
+right: -1.58%;
+top: 49.37%;
+bottom: 21.52%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+footer_font {
+position: absolute;
+left: 51.74%;
+right: 43.4%;
+top: 66.36%;
+bottom: 25%;
+
+font-family: Basier Square Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+footer_icon {
+position: absolute;
+left: 54.51%;
+right: 43.68%;
+top: 79.55%;
+bottom: 8.64%;
+}
+
+paragraph_font {
+
+    position: absolute;
+width: 554px;
+height: 269px;
+left: 52px;
+top: 269px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+
+paragraph_header {
+    position: absolute;
+width: 340px;
+height: 71px;
+left: 52px;
+top: 172px;
+
+font-family: Basier Square Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+
+color: #000000;
+
 }
