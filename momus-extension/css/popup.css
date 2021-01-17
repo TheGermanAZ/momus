@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  /* box-sizing: border-box; */
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 250px;
+  padding: 3%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  
+}
+.grid-item {
+  font-size: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+input{
+  font-size: 20px;
+  width: 175px;
+}
+
+.measure-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#71bfbc;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  width: 175px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.measure-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.measure-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.measure-button:hover span {
+  padding-right: 25px;
+}
+
+.measure-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
